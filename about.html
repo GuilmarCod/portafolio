@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Instituto Técnico</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/e545fdcdbe.js" crossorigin="anonymous">
+            
+        </script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">PRINCIPAL</a></li>
+                        <li><a href="">SOBRE NOSOTROS</a></li>
+                        <li><a href="">CURSO</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACTO</a></li>0-0
+                            
+                    </ul>
+                </div>   
+                
+            </nav>
+            <h1>Lic. Guilmar Mamani.</h1>
+        </section>
+
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function hideMenu(){
+
+                navLinks.style.right = "-200px";
+                
+            }
+            function showMenu(){
+
+                navLinks.style.right = "0px";
+                
+            }   
+        </script>
+        
+        <!-- CURSOS SECCION-->
+
+        <!-- campus SECCION-->
+        
+        <!-- COURSES SECCION-->
+
+        <!-- testimonial SECCION-->
+       
+        <!-- call to action-->
+        
+        <!-- Footer-->
+        <section class="footer">
+            <h3>Sobre nosotros</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum alias quisquam quos ea recusandae officiis praesentium, <br>dolorem eaque voluptatem illum ipsa qui odit, nobis aspernatur necessitatibus eos aperiam odio minima!</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Forma parte de nuestra comunidad <i class="fa-regular fa-heart"></i></p>
+        </section>
+
+
+
+
+        
+    </body>
+</html>
